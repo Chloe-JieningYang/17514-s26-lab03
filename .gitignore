@@ -1,0 +1,64 @@
+# =====================================
+# Java
+# =====================================
+# Compiled class files
+*.class
+
+# Maven target directory
+Java/target/
+
+# Maven wrapper
+.mvn/
+
+# IDE files
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Log files
+*.log
+
+# =====================================
+# TypeScript / Node.js
+# =====================================
+# Dependencies
+node_modules/
+Typescript/node_modules/
+
+# Build output
+dist/
+Typescript/dist/
+
+# Test coverage
+coverage/
+Typescript/coverage/
+
+# Lock files (optional - some prefer to commit these)
+# package-lock.json
+
+# =====================================
+# OS generated files
+# =====================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =====================================
+# IDE / Editor
+# =====================================
+.vscode/
+*.swp
+*.swo
+*~
+
+# =====================================
+# Environment files
+# =====================================
+.env
+.env.local
+.env.*.local
