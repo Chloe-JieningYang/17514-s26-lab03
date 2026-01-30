@@ -36,9 +36,9 @@ class InheritanceSortedIntList extends SortedIntList {
     return super.add(num)
   }
 
-public override addAll(list: IntegerList): boolean {
-  return super.addAll(list)
-}
+  public override addAll(list: IntegerList): boolean {
+    return super.addAll(list)
+  }
 
   public getTotalAdded(): number {
     return this.totalAdded
